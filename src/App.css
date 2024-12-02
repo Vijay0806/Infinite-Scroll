@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* App Container */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  color: rgb(221, 11, 221);
+}
+
+/* Post List */
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Post Item */
+.post-item {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.post-item h2 {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.post-item p {
+  font-size: 14px;
+  font-family: cursive;
+  color: #555;
+}
+
+/* Loading and End Messages */
+.loading,
+.end-message {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #777;
+}
